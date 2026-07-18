@@ -13,11 +13,8 @@ h1 {
     color: darkblue;
 }
 
-main{max-width: 840px;
-}
-
-main img{
-    width: 150%;
+img{
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -28,21 +25,36 @@ p {
     padding: 10px;
 }
 
+main {
+    max-width: 840px;
+}
+
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid #000;
+    border: 1px solid rgb(0 0 0 / 0.2); 
     padding: 1rem;
-    background-color: #d4d3d3;
-    color: #000;
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-p {padding: 0;
+main img {
+    width: 150px;
+    height: auto;
 }
 
+p {
+    padding: 0;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
